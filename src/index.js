@@ -15,7 +15,7 @@ body.style.padding = '40px';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <BrowserRouter basename="movie-project">
+      <BrowserRouter basename="movie-project/">
         <Provider store={store}>
           <App/><Toaster/>
         </Provider>
